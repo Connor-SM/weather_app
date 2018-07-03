@@ -1,0 +1,40 @@
+body {
+  margin: 5%;
+  background: linear-gradient(-90deg, red, orange);
+  overflow: hidden;
+}
+
+input {
+  margin: 10px;
+  line-height: 50px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 150%;
+  color: grey;
+}
+
+input[type="text"] {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input[type="submit"] {
+  background-color: #f16051;
+  color: #fff;
+  border: 2px solid grey;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.Title {
+  text-align: center;
+  padding-top: 18%;
+  color: #fff;
+  background-image: url('./img/bg.jpg');
+  height: 600px;
+}
+
+.Weather {
+  margin: 10px;
+  color: white;
+}
